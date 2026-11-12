@@ -4,11 +4,11 @@
 
 **배터리 상태와 교체 시점을 살피는 위젯**
 
-[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.0-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.0/battery-risk-zero-1.0.0.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.1-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.1/battery-risk-zero-1.0.1.apk)
 
-### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.0.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.0/battery-risk-zero-1.0.0.apk)
+### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.1.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.1/battery-risk-zero-1.0.1.apk)
 
-GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.0 정식 버전**
+GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.1 정식 버전**
 
 [설치·보안 안내](INSTALLATION.md) · [버전별 다운로드](https://github.com/ZERO-hms/battery-risk-zero/releases) · [변경사항](CHANGELOG.md) · [검증 범위](VALIDATION.md)
 
@@ -24,7 +24,7 @@ GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.0 정식 버�
 | --- | --- |
 | 배터리 헬스 · 효율 | 완충 용량 ÷ 기준 용량 × 100. 현재 잔량이 아닌 용량 유지율을 뜻합니다. 데이터가 부족하면 숫자를 만들지 않고 학습 중 또는 —로 표시합니다. |
 | 사이클 | 기기가 제공하는 사용한 사이클 횟수입니다. 남은 횟수가 아니며 기기에서 제공하지 않으면 —로 표시합니다. |
-| 남은 시간 | 시스템 예상치를 우선하고, 없으면 최근 방전 기록으로 계산합니다. 사용 패턴에 따라 실제 시간은 달라집니다. |
+| 남은 시간 | Android 예상치를 우선하고, 없으면 최근 방전 기록으로 계산합니다. 앱 화면에 출처를 표시하며 삼성 설정과 다를 수 있습니다. 효율 학습과는 별개입니다. |
 | 충전 시간 | 전원을 연결하면 표시를 전환합니다. 충전 완료 예상치가 없으면 확인 중, 멈추면 충전 대기 등 기기 상태를 표시합니다. |
 | 충전 전력 W | 순간 전류 × 배터리 전압으로 구한 배터리 순전력 추정입니다. 충전기 표기 출력이나 USB 입력 전력이 아닙니다. |
 | 세 가지 위젯 | 1×1 · 2×1 · 3×2. 2×1·3×2는 네 항목, 1×1은 충전하지 않을 때 W를 생략합니다. 시간은 분 단위 한 줄로 표시합니다. |
@@ -38,7 +38,7 @@ GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.0 정식 버�
 
 ## 설치 방법
 
-1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.0.apk`입니다.
+1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.1.apk`입니다.
 2. 다운로드한 APK를 브라우저나 파일 앱에서 엽니다.
 3. 설치 허용이 필요하면 **APK를 여는 브라우저·파일 앱**에만 ‘이 출처 허용’을 적용합니다. 설치 후에는 다시 끕니다.
 4. 설치가 차단되면 [설치·보안 안내](INSTALLATION.md)를 확인하세요. 갤럭시 보안 위험 자동 차단, Play 프로텍트 검사와 유해 앱 경고, 관리 기기 제한을 구분해 안내합니다.
@@ -83,9 +83,9 @@ GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스�
 
 ## 현재 버전
 
-**1.0.0 · 첫 정식 배포**
+**1.0.1 · 예상 시간 출처 안내 개선**
 
-기존 테스트 버전을 1.0.0 정식 버전으로 전환했습니다. 그레이·민트 센서 링 아이콘과 GitHub 업데이트 확인을 제공합니다. 아이콘의 3칸 게이지는 고정 디자인이며 실제 잔량 표시가 아닙니다. 아이콘 배경은 투명하며 홈 화면의 최종 모양·바탕은 런처와 테마 설정에 따라 달라질 수 있습니다. 위젯 미리보기, 설정 화면, 깜빡임 개선을 포함합니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
+남은 시간에 Android 예상 / 최근 사용 기반 출처를 표시합니다. 호환성 정보는 최신 상태를 다시 읽고 예상 시간 원본·사용 패턴 반영 여부·충전 확장 항목을 포함합니다. 삼성 설정과 같은 시간을 보장하지 않으며 초고속 모드 자동 판정은 아직 지원하지 않습니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
 
 문제는 [Issues](https://github.com/ZERO-hms/battery-risk-zero/issues)에 모델, Android/One UI 버전, 앱 버전과 재현 순서를 남겨 주세요. 개인 식별정보는 포함하지 마세요.
 
