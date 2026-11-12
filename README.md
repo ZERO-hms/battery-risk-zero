@@ -1,14 +1,14 @@
 # 배터리리스크제로
 
-<img src="icon.png" width="132" alt="배터리 상태를 측정하는 계기판 아이콘" />
+<img src="icon.png" width="132" alt="배터리 상태를 측정하는 센서 링 아이콘" />
 
 **배터리 상태와 교체 시점을 살피는 위젯**
 
-[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-0.5.1-alpha18-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v0.5.1-alpha18/battery-risk-zero-0.5.1-alpha18.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.0-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.0/battery-risk-zero-1.0.0.apk)
 
-### [⬇ 설치 파일 바로 받기 — battery-risk-zero-0.5.1-alpha18.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v0.5.1-alpha18/battery-risk-zero-0.5.1-alpha18.apk)
+### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.0.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.0/battery-risk-zero-1.0.0.apk)
 
-GitHub 계정 없이 받을 수 있습니다. 현재 버전: **정식 출시 전 테스트 버전 (Pre-release)**
+GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.0 정식 버전**
 
 [설치·보안 안내](INSTALLATION.md) · [버전별 다운로드](https://github.com/ZERO-hms/battery-risk-zero/releases) · [변경사항](CHANGELOG.md) · [검증 범위](VALIDATION.md)
 
@@ -38,7 +38,7 @@ GitHub 계정 없이 받을 수 있습니다. 현재 버전: **정식 출시 전
 
 ## 설치 방법
 
-1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-0.5.1-alpha18.apk`입니다.
+1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.0.apk`입니다.
 2. 다운로드한 APK를 브라우저나 파일 앱에서 엽니다.
 3. 설치 허용이 필요하면 **APK를 여는 브라우저·파일 앱**에만 ‘이 출처 허용’을 적용합니다. 설치 후에는 다시 끕니다.
 4. 설치가 차단되면 [설치·보안 안내](INSTALLATION.md)를 확인하세요. 갤럭시 보안 위험 자동 차단, Play 프로텍트 검사와 유해 앱 경고, 관리 기기 제한을 구분해 안내합니다.
@@ -83,9 +83,9 @@ GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스�
 
 ## 현재 버전
 
-**0.5.1-alpha18 · 첫 공개 테스트 배포**
+**1.0.0 · 첫 정식 배포**
 
-계기판 아이콘을 적용하고 공개 업데이트 확인을 연결했습니다. 위젯 미리보기, 설정 화면, 깜빡임 개선을 포함합니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
+기존 테스트 버전을 1.0.0 정식 버전으로 전환했습니다. 레드·블랙·옐로우 센서 링 아이콘과 GitHub 업데이트 확인을 제공합니다. 아이콘의 3칸 게이지는 고정 디자인이며 실제 잔량 표시가 아닙니다. 아이콘 배경은 투명하며 홈 화면의 최종 모양·바탕은 런처와 테마 설정에 따라 달라질 수 있습니다. 위젯 미리보기, 설정 화면, 깜빡임 개선을 포함합니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
 
 문제는 [Issues](https://github.com/ZERO-hms/battery-risk-zero/issues)에 모델, Android/One UI 버전, 앱 버전과 재현 순서를 남겨 주세요. 개인 식별정보는 포함하지 마세요.
 
