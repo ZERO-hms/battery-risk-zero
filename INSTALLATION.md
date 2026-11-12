@@ -1,10 +1,10 @@
 # 설치·보안 안내
 
-배터리리스크제로 0.5.1-alpha18 설치·보안 안내
+배터리리스크제로 1.0.0 설치·보안 안내
 
-1. 아래 공식 GitHub 링크에서 battery-risk-zero-0.5.1-alpha18.apk를 받아 엽니다. GitHub 계정 없이 다운로드할 수 있습니다. 현재는 정식 출시 전 테스트 버전입니다.
+1. 아래 공식 GitHub 링크에서 battery-risk-zero-1.0.0.apk를 받아 엽니다. GitHub 계정 없이 다운로드할 수 있습니다. 정식 버전 1.0.0입니다.
 APK 직접 다운로드:
-https://github.com/ZERO-hms/battery-risk-zero/releases/download/v0.5.1-alpha18/battery-risk-zero-0.5.1-alpha18.apk
+https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.0/battery-risk-zero-1.0.0.apk
 공식 배포 페이지:
 https://github.com/ZERO-hms/battery-risk-zero
 기존 동일 서명 앱 위에 설치하면 설정과 기록을 유지합니다. Source code ZIP/TAR은 안내 자료이며 설치 파일이 아닙니다.
