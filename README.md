@@ -4,11 +4,11 @@
 
 **배터리 상태와 교체 시점을 살피는 위젯**
 
-[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.1-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.1/battery-risk-zero-1.0.1.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.0-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.0/battery-risk-zero-1.0.0.apk)
 
-### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.1.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.1/battery-risk-zero-1.0.1.apk)
+### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.0.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.0/battery-risk-zero-1.0.0.apk)
 
-GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.1 정식 버전**
+GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.0 정식 버전 · 빌드 22**
 
 [설치·보안 안내](INSTALLATION.md) · [버전별 다운로드](https://github.com/ZERO-hms/battery-risk-zero/releases) · [변경사항](CHANGELOG.md) · [검증 범위](VALIDATION.md)
 
@@ -38,14 +38,14 @@ GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.1 정식 버�
 
 ## 설치 방법
 
-1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.1.apk`입니다.
+1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.0.apk`입니다.
 2. 다운로드한 APK를 브라우저나 파일 앱에서 엽니다.
 3. 설치 허용이 필요하면 **APK를 여는 브라우저·파일 앱**에만 ‘이 출처 허용’을 적용합니다. 설치 후에는 다시 끕니다.
 4. 설치가 차단되면 [설치·보안 안내](INSTALLATION.md)를 확인하세요. 갤럭시 보안 위험 자동 차단, Play 프로텍트 검사와 유해 앱 경고, 관리 기기 제한을 구분해 안내합니다.
 5. 앱을 한 번 열고 **홈 화면에 위젯 추가**를 누르거나 홈 화면을 길게 눌러 위젯 목록에서 선택합니다.
 6. 톱니바퀴 → 설정에서 위젯 모양·보증 종료일·알림을 선택합니다.
 
-기존 동일 서명 앱 위에 설치하면 설정과 기록을 유지합니다. 앱 삭제는 필요하지 않습니다. 이전 버전에서 홈 화면 칸 수가 잘못 잡혔다면 해당 위젯만 제거하고 다시 추가하세요.
+버전 표시는 1.0.0으로 재정리했으며 내부 빌드 번호는 22로 올렸습니다. 이전 1.0.0·1.0.1에서도 이 APK를 직접 받아 설치하세요. 이전 앱의 자동 업데이트 안내에는 나타나지 않을 수 있습니다. 기존 동일 서명 앱 위에 설치하면 설정과 기록을 유지합니다. 앱 삭제는 필요하지 않습니다. 이전 버전에서 홈 화면 칸 수가 잘못 잡혔다면 해당 위젯만 제거하고 다시 추가하세요.
 
 GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스나 설치 파일이 아니므로 설치할 때는 반드시 `.apk`를 받으세요.
 
@@ -54,7 +54,7 @@ GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스�
 - Android 15(API 35) 이상, One UI 7.0 이상 갤럭시 대상입니다.
 - 폴드7 바깥 화면 5×6 격자에 대응하도록 위젯 최소 크기를 조정했습니다. **현재 APK의 폴드7 / One UI 9.0 실기기 재검증은 남아 있습니다.**
 - 기종·펌웨어가 제공하는 데이터에 따라 효율·사이클·시간·W 일부를 얻지 못할 수 있습니다.
-- 삼성의 **초고속 충전 문구는 아직 연동하지 않았습니다.** W만 보고 일반·고속·초고속을 판정하지 않습니다.
+- **고속·초고속 충전 모드는 자동 판정하지 않습니다.** W만 보고 일반·고속·초고속을 판정하지 않습니다.
 - 배터리 보호 충전 한도를 직접 확인하지 못하며 100%까지의 충전을 보장하지 않습니다.
 - 깊은 절전, 강제 종료, 제조사 정책에서는 갱신·알림이 늦어지거나 멈출 수 있습니다. 강제 종료했다면 앱을 다시 여세요.
 - 자동 갱신을 끄면 약 30분 기본 갱신과 앱의 수동 새로고침을 사용할 수 있습니다.
@@ -83,9 +83,9 @@ GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스�
 
 ## 현재 버전
 
-**1.0.1 · 예상 시간 출처 안내 개선**
+**1.0.0 · 정식 배포**
 
-남은 시간에 Android 예상 / 최근 사용 기반 출처를 표시합니다. 호환성 정보는 최신 상태를 다시 읽고 예상 시간 원본·사용 패턴 반영 여부·충전 확장 항목을 포함합니다. 삼성 설정과 같은 시간을 보장하지 않으며 초고속 모드 자동 판정은 아직 지원하지 않습니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
+충전 항목을 모든 기기에서 ‘충전 전력’으로 통일하고 설정 톱니바퀴의 모양·여백·크기 맞춤을 개선했습니다. 남은 시간 출처 안내와 최신 진단 복사를 유지합니다. 고속·초고속 모드는 자동 판정하지 않습니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
 
 문제는 [Issues](https://github.com/ZERO-hms/battery-risk-zero/issues)에 모델, Android/One UI 버전, 앱 버전과 재현 순서를 남겨 주세요. 개인 식별정보는 포함하지 마세요.
 
