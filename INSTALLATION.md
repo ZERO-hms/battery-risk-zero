@@ -1,8 +1,8 @@
-# 배터리리스크제로 1.0.2 설치·보안 안내
+# 배터리리스크제로 1.0.3 설치·보안 안내
 
-1. 아래 공식 GitHub 링크에서 battery-risk-zero-1.0.2.apk를 받아 엽니다. 정식 1.0.2 (빌드 30)이며 GitHub 계정 없이 다운로드할 수 있습니다. 기존 앱을 삭제하지 않고 받은 APK를 열어 업데이트하세요. 미리보기 1.0.2을 설치했다면 이 파일을 직접 받아 설치하세요.
+1. 아래 공식 GitHub 링크에서 battery-risk-zero-1.0.3.apk를 받아 엽니다. 정식 1.0.3 (빌드 32)이며 GitHub 계정 없이 다운로드할 수 있습니다. 기존 앱을 삭제하지 않고 받은 APK를 열어 업데이트하세요.
 APK 직접 다운로드:
-https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.2/battery-risk-zero-1.0.2.apk
+https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.3/battery-risk-zero-1.0.3.apk
 공식 배포 페이지:
 https://github.com/ZERO-hms/battery-risk-zero
 기존 동일 서명 앱 위에 설치하면 설정과 기록을 유지합니다. Source code ZIP/TAR은 안내 자료이며 설치 파일이 아닙니다.
@@ -29,6 +29,8 @@ https://www.samsung.com/ph/support/mobile-devices/protect-your-galaxy-device-wit
 Google Play 프로텍트 경고 및 오탐 검토:
 https://developers.google.com/android/play-protect/warning-dev-guidance
 
+
+사이클 카드에서 새로고침을 누르세요. 삼성 내부 기록을 읽는 기기는 무선 디버깅 연결이 필요합니다. 조회한 뒤 꺼도 됩니다. Android에서 사이클을 직접 제공하는 기기는 바로 갱신합니다. 이전 기록과 마지막 확인 시점은 유지됩니다.
 
 상세 배터리 연결 (선택 기능)
 메인의 ‘처음 연결하기’ 또는 설정 맨 위의 ‘상세 배터리 연결’에서 안내를 시작합니다. ① 휴대전화 정보 → 소프트웨어 정보 → 빌드번호를 7번 누르고 필요한 잠금 인증을 직접 진행합니다. ② 개발자 옵션 → 무선 디버깅을 켭니다. ③ 앱에서 알림으로 연결을 시작합니다. 기종과 One UI 버전에 따라 메뉴 위치와 이름은 다를 수 있습니다.

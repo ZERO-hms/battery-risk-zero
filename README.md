@@ -5,13 +5,13 @@
 
 **배터리 상태와 교체 시점을 살피는 위젯**
 
-[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.2-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.2/battery-risk-zero-1.0.2.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.3-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.3/battery-risk-zero-1.0.3.apk)
 
-### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.2.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.2/battery-risk-zero-1.0.2.apk)
+### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.3.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.3/battery-risk-zero-1.0.3.apk)
 
-GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.2 정식 버전 · 빌드 30**
+GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.3 정식 버전 · 빌드 32**
 
-[설치·보안 안내](INSTALLATION.md) · [버전별 다운로드](https://github.com/ZERO-hms/battery-risk-zero/releases) · [변경사항](CHANGELOG.md) · [검증 범위](VALIDATION.md)
+[설치·보안 안내](INSTALLATION.md) · [정식 릴리스](https://github.com/ZERO-hms/battery-risk-zero/releases) · [변경사항](CHANGELOG.md) · [검증 범위](VALIDATION.md)
 
 ## 왜 만들었나요?
 
@@ -46,18 +46,22 @@ GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.2 정식 버�
 
 ## 설치 방법
 
-1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.2.apk`입니다.
+1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.3.apk`입니다.
 2. 다운로드한 APK를 브라우저나 파일 앱에서 엽니다.
 3. 설치 허용이 필요하면 **APK를 여는 브라우저·파일 앱**에만 ‘이 출처 허용’을 적용합니다. 설치 후에는 다시 끕니다.
 4. 설치가 차단되면 [설치·보안 안내](INSTALLATION.md)를 확인하세요. 갤럭시 보안 위험 자동 차단, Play 프로텍트 검사와 유해 앱 경고, 관리 기기 제한을 구분해 안내합니다.
 5. 앱을 한 번 열고 **홈 화면에 위젯 추가**를 누르거나 홈 화면을 길게 눌러 위젯 목록에서 선택합니다.
 6. 톱니바퀴 → 설정에서 위젯 모양·보증 종료일·알림을 선택합니다.
 
-기존 앱을 삭제하지 않고 APK를 열어 업데이트하세요. 기존 동일 서명 앱의 설정·학습 기록을 유지합니다. 미리보기 1.0.2 사용자는 APK를 직접 받아 설치하세요. 3×2 위젯은 제거되었으므로 홈 화면에 남은 빈 위젯은 지우고 1×1 또는 2×1로 다시 추가하세요.
+기존 앱을 삭제하지 않고 APK를 열어 업데이트하세요. 기존 동일 서명 앱의 설정·학습 기록을 유지합니다. 3×2 위젯은 제거되었으므로 홈 화면에 남은 빈 위젯은 지우고 1×1 또는 2×1로 다시 추가하세요.
 
 GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스나 설치 파일이 아니므로 설치할 때는 반드시 `.apk`를 받으세요.
 
-## 사이클이 ‘조회 불가’라면
+## 사이클 새로고침
+
+메인 화면의 **사이클 → 새로고침**을 누르세요. Android가 사이클을 직접 제공하면 바로 갱신됩니다. 삼성 내부 기록이 필요한 기기는 무선 디버깅을 켜고 조회하세요. 조회가 끝나면 꺼도 됩니다. 다음 조회까지 마지막 값과 확인 시점을 볼 수 있습니다.
+
+### 처음 연결할 때
 
 메인의 **처음 연결하기** 또는 설정의 **상세 배터리 연결**을 여세요. 본인 휴대전화를 Wi-Fi에 연결하고 앱 안내에 따라 개발자 옵션과 무선 디버깅을 켭니다. **알림으로 연결 시작**을 누른 후 무선 디버깅에서 **페어링 코드로 기기 페어링**을 여세요. 창을 열어 둔 채 알림창을 내려 **코드 입력**에 6자리를 보내세요. 도우미는 알림 권한이 필요하며 5분 후 종료됩니다. 사용을 마치면 무선 디버깅을 끌 수 있습니다. [연결 해제와 재연결 안내](INSTALLATION.md)
 
@@ -95,9 +99,9 @@ GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스�
 
 ## 현재 버전
 
-**1.0.2 · 정식 배포**
+**1.0.3 · 정식 배포**
 
-추가 앱 없이 알림에서 페어링 코드를 입력하는 상세 배터리 연결을 추가했습니다. 일반 조회로 확인되지 않는 사이클을 0회로 표시하던 문제를 수정했습니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
+메인 사이클 카드와 상세 배터리 연결 화면에 **새로고침**을 추가했습니다. 내부 기록 조회 시 무선 디버깅을 켜는 방법을 안내합니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
 
 문제는 [Issues](https://github.com/ZERO-hms/battery-risk-zero/issues)에 모델, Android/One UI 버전, 앱 버전과 재현 순서를 남겨 주세요. 개인 식별정보는 포함하지 마세요.
 
