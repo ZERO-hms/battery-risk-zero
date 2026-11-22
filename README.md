@@ -5,11 +5,11 @@
 
 **배터리 상태와 교체 시점을 살피는 위젯**
 
-[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.3-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.3/battery-risk-zero-1.0.3.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/APK_다운로드-1.0.4-36DDB6?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.4/battery-risk-zero-1.0.4.apk)
 
-### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.3.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.3/battery-risk-zero-1.0.3.apk)
+### [⬇ 설치 파일 바로 받기 — battery-risk-zero-1.0.4.apk](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.4/battery-risk-zero-1.0.4.apk)
 
-GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.3 정식 버전 · 빌드 32**
+GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.4 정식 버전 · 빌드 37**
 
 [설치·보안 안내](INSTALLATION.md) · [정식 릴리스](https://github.com/ZERO-hms/battery-risk-zero/releases) · [변경사항](CHANGELOG.md) · [검증 범위](VALIDATION.md)
 
@@ -46,7 +46,7 @@ GitHub 계정 없이 받을 수 있습니다. 현재 버전: **1.0.3 정식 버�
 
 ## 설치 방법
 
-1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.3.apk`입니다.
+1. 위 **APK 바로 받기** 링크를 누릅니다. 파일명은 `battery-risk-zero-1.0.4.apk`입니다.
 2. 다운로드한 APK를 브라우저나 파일 앱에서 엽니다.
 3. 설치 허용이 필요하면 **APK를 여는 브라우저·파일 앱**에만 ‘이 출처 허용’을 적용합니다. 설치 후에는 다시 끕니다.
 4. 설치가 차단되면 [설치·보안 안내](INSTALLATION.md)를 확인하세요. 갤럭시 보안 위험 자동 차단, Play 프로텍트 검사와 유해 앱 경고, 관리 기기 제한을 구분해 안내합니다.
@@ -63,7 +63,11 @@ GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스�
 
 ### 처음 연결할 때
 
-메인의 **처음 연결하기** 또는 설정의 **상세 배터리 연결**을 여세요. 본인 휴대전화를 Wi-Fi에 연결하고 앱 안내에 따라 개발자 옵션과 무선 디버깅을 켭니다. **알림으로 연결 시작**을 누른 후 무선 디버깅에서 **페어링 코드로 기기 페어링**을 여세요. 창을 열어 둔 채 알림창을 내려 **코드 입력**에 6자리를 보내세요. 도우미는 알림 권한이 필요하며 5분 후 종료됩니다. 사용을 마치면 무선 디버깅을 끌 수 있습니다. [연결 해제와 재연결 안내](INSTALLATION.md)
+메인에서 **처음 연결하기**를 누르거나 설정에서 **상세 배터리 연결**을 여세요.
+
+1. **연결 준비**에서 개발자 옵션을 열고 Wi-Fi에 연결한 상태로 무선 디버깅을 켭니다. 처음 사용하는 갤럭시는 휴대전화 정보 → 소프트웨어 정보에서 빌드번호를 7번 누릅니다.
+2. **무선 디버깅 연결**에서 **페어링 팝업 시작**을 누른 뒤 무선 디버깅의 **페어링 코드로 기기 페어링**을 엽니다. 코드 창을 열어 둔 채 상단 알림의 **코드 입력**으로 6자리를 보내면 사이클을 조회합니다. 팝업에는 알림 허용이 필요합니다. 다음 조회에는 **기존 연결로 다시 연결**을 사용하세요.
+3. **연결 종료 → 개발자 옵션 끄기**를 누르고 확인하면 개발자 옵션과 USB·무선 디버깅이 함께 꺼집니다. PC 디버깅 연결도 종료됩니다. 마지막 사이클과 확인 시점은 앱에 남습니다. 종료를 확인할 수 없으면 시스템 설정에서 확인하세요. [설치 및 연결 안내](INSTALLATION.md)
 
 ## 지원 환경과 제한
 
@@ -99,9 +103,9 @@ GitHub의 **Source code ZIP/TAR은 공개 안내 자료**입니다. 앱 소스�
 
 ## 현재 버전
 
-**1.0.3 · 정식 배포**
+**1.0.4 · 정식 배포**
 
-메인 사이클 카드와 상세 배터리 연결 화면에 **새로고침**을 추가했습니다. 내부 기록 조회 시 무선 디버깅을 켜는 방법을 안내합니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
+사이클 확인을 연결 준비, 페어링·조회, 연결 종료의 세 단계로 정리했습니다. [변경사항](CHANGELOG.md)과 [검증 범위](VALIDATION.md)를 확인하세요.
 
 문제는 [Issues](https://github.com/ZERO-hms/battery-risk-zero/issues)에 모델, Android/One UI 버전, 앱 버전과 재현 순서를 남겨 주세요. 개인 식별정보는 포함하지 마세요.
 

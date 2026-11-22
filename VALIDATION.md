@@ -1,14 +1,12 @@
 # 배포 검증
 
-## 1.0.3 정식 버전 · 빌드 32
+## 1.0.4 정식 버전 · 빌드 37
 
-- 용량·충전·표시·사이클 검사 109개를 통과했습니다. 정식 APK의 서명 인증서는 이전 공개 버전과 일치합니다.
-- Android Lint 결과는 0 errors, 35 warnings입니다.
-- 같은 기능이 들어간 빌드 31에서 에뮬레이터로 연결 안내 검사 120개와 무선 배터리 검사 110개를 통과했습니다. 무선 디버깅을 껐을 때 설정 안내가 열리고 마지막 조회값과 확인 시점을 유지하는 동작을 포함합니다.
-- 폴드7의 페어링과 내부 기록 조회는 이전 빌드에서 확인했습니다. 정식 빌드 32의 폴드7 설치와 새로고침은 실기기에서 재확인하지 않았습니다.
+- Android 15(API 35) 이상용 APK입니다. 정식 APK의 패키지명과 서명 인증서를 확인했습니다. 기존 버전과 서명이 일치합니다.
+- 같은 기능의 빌드 36에서 Android 에뮬레이터로 연결 안내 68개와 알림 페어링 35개 검사를 통과했습니다. 실제 시스템 코드 입력, 로컬 페어링, 배터리 기록 조회 요청, 개발자 옵션과 USB·무선 디버깅 종료까지 확인했습니다.
+- 빌드 37에서는 버전과 배포 안내를 갱신했습니다. Android Lint 결과는 오류 0개, 경고 35개입니다.
+- 이 버전의 폴드7 실기기 팝업 표시 및 사이클 수치 확인은 아직 이루어지지 않았습니다. 기기에 따라 상세 기록을 제공하지 않을 수 있습니다.
 
-최소 Android 15 (API 35) · 파일명 `battery-risk-zero-1.0.3.apk`
+SHA-256 `b8ec6c45fdb98885a0b014b8046e651fda5c95d37b0978897095ab2d9d78193c`
 
-SHA-256 `01d6cfa0d4f9b9b2973d2739f1ec582474c559c11c5c7045b8d20a0d4c42f0d0`
-
-[APK 직접 다운로드](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.3/battery-risk-zero-1.0.3.apk) · [설치·보안 안내](INSTALLATION.md)
+[APK 직접 다운로드](https://github.com/ZERO-hms/battery-risk-zero/releases/download/v1.0.4/battery-risk-zero-1.0.4.apk) · [설치·보안 안내](INSTALLATION.md)
